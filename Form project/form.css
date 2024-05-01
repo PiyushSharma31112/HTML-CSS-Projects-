@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg') no-repeat;
+    background-position: center;
+    background-size: center;
+}
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(1px);
+    
+}
+h2{
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+}
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+input:focus ~ label,
+input:valid ~ label{
+    top: -5px;
+}
+
+.inputbox input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 35px 0 5px;
+    color: #fff;
+}
+
+.inputbox i{
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2rem;
+    top: 40px;
+}
+
+.forget{
+    margin:-15px 0 15px;
+    font-size: 0.9rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.forget label input{
+    margin-right: 3px;
+}
+
+.forget label a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.forget label a:hover{
+    text-decoration: underline;
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    background: rgba(255, 255, 255, 0.3);
+    margin-top: 10px ;
+}
+
+button:hover{
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.register{
+    font-size: 0.9em;
+    color: #fff;
+    text-align: center;
+    margin: 15px;
+}
+
+.register p a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.register p:hover{
+    text-decoration: underline;
+}
+
+.checkbox{
+    cursor: pointer;
+}

@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+.main{
+    overflow: hidden;
+}
+
+/** navbar **/
+
+.navbar{
+    height:70px;;
+    position: fixed;
+    width: 100%;
+    border: 0.1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+}
+
+.navbar-logo{
+    height: 46px;
+    width: 56.5%;   
+}
+
+.logo{
+    background-image: url(logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 20%;
+    font-size: 0.85rem;
+    margin-left: 15px;   
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #475569;
+    display: flex;
+    margin-left: 55px;
+    margin-top: 5px;
+    font-size: 26px ;
+    font-weight: 100;
+    font-family: lato , sans-serif;
+    padding : 10% 30% 10% 0 ;
+}
+
+.border:hover{
+    color: rgb(218, 127, 127);
+    background: rgb(233, 246, 251);   
+}
+
+/** Home **/
+
+.background{
+    height: 400px;
+    width: 60vw;
+    font-size: 30px;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text{
+    width: 20%;
+    font-size: 20px;
+    color: rgb(9, 9, 83);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55%;   
+}
+
+p{
+    color: rgb(246, 178, 8);
+    font-size: 40px;
+    font-weight: 600;     
+}
+p2{
+    color: rgb(9, 9, 83);
+   font-size: 75px;
+   font-weight: 700;
+}
+.pre-one{
+    margin-top: 100px;
+    font-family: lato,sans-serif;
+    
+}
+img{
+    height: 550px;
+    width: 100vw;
+    margin-left: 30%;
+   
+}
+
+/** About **/
+
+h1{
+    margin-top: 25%;
+    text-align: center;
+    margin-bottom: 5%;
+    color:  rgb(8, 8, 123);
+    font-weight: 550;
+    font-size: 40px;
+}
+.about-us{
+    height: 350px;
+    width: 60%;
+}
+.para{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color:  rgb(8, 8, 123);
+    margin : 5% 20% 0 10%;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: lato,sans-serif;
+}
+.img{
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    box-shadow: 2px 2px 5px 5px #a6bad6;
+    height: 320px;
+    width: 25%;
+    border-radius: 15px;
+    margin-bottom: 10%;
+    padding: 12px;
+    text-align: center;
+}
+.content{
+    height: 175px;
+    width: 100%;
+    background-size: cover;
+    margin: 0 10px 10px 0;
+}
+p5{
+    margin-top: 10%;
+    font-size: 25px;
+    color: rgb(10, 10, 195);
+}
+.content-one{
+    height: 140px;
+    width: 100%;
+    background-size: cover;
+    margin: 0 10px 10px 0;
+}
+
+/** Team **/
+
+.Team{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.mem-one{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px 5px #475569;
+    background-image: url(Piyush.jpg);
+    background-size: cover;
+    margin-top: 12%;
+    margin-left: 20px ;
+}
+p6{
+    display: flex;
+    justify-content: center;
+    color: rgb(10, 10, 195); 
+    font-size: 40px;
+    font-weight: 550;
+    margin-bottom: 30px;
+}
+.one{
+    margin-top: 40px;
+    font-size: 20px;
+    color: rgb(11, 11, 110);
+    font-weight: 600;
+}
+
+/** Contact **/
+
+.para-one{
+    text-align: center;
+    margin-top: 5%;
+    color:  rgb(8, 8, 123);
+    font-size: 30px; 
+    font-family: lato , sans-serif; 
+     
+}
+.para-contact{
+    text-align: center;
+    color:  rgb(8, 8, 123);
+    margin-top: 2%;
+    font-size: 15px;
+    font-family: lato , sans-serif; 
+    font-weight: 500;
+    margin-bottom: 2%;
+}
+.img-two{
+    height: 400px;
+    width: 350px;
+
+}
+.form{
+    height: 300px;
+    width:  300px;
+}
+.contact-one{
+    display: flex;
+    margin-right: 15rem;
+}
+.form{
+    height: 420px;
+    width: 300px;
+    background-color: white;
+    box-shadow: 2px 2px 5px 3px #475569;
+    border-radius: 10px;
+}
+.form-one{
+    height: 420px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.form-two{
+    height: 100%;
+    width: 98%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.button{
+    background-color: Green;
+    width: 100%;
+    height: 7%;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    margin: 8px 0 0 0;
+    border: none;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(5, 81, 5);
+}
+.first-name{
+    background-color: rgb(224, 222, 222);
+    width: 100%;
+    height: 7%;
+    border-radius: 5px;
+    margin: 8px 0 10px 0 ;
+    border: none;
+    font-size: 12px;
+}
+.message{
+    background-color: rgb(224, 222, 222);
+    width: 100%;
+    height: 33%;
+    border-radius: 5px;
+    color: black;
+    font-size: 15px;
+    margin: 8px 0 10px 0;
+    font-size: 14px;  
+    border: none;
+}
+.newsletter{
+    height: 175px;
+    width: 30%;
+    background-color: #363a45;
+    text-align: center;
+    margin: 6% 0 3% 33% ;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 3px #475569;
+    position: relative;
+}
+.paper{
+    height: 50px;
+    width: 90%;
+
+}
+.paperplane{
+    display: flex;
+    justify-content: center;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    top: 0;
+}
+.msg{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: lato,sans-serif;    
+}
+.email-add{
+    height: 22%;
+    width: 45%;
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: rgb(224, 222, 222);
+}
+.p-one{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: lato,sans-serif;
+}
+.suscribe{
+    height: 22%;
+    width: 30%;
+    border-radius: 8px;
+    background-color: Green;
+    color: #ffffff;
+    cursor: pointer;
+}
+.suscribe:hover{
+    background-color: rgb(5, 81, 5);
+}
+.paper{
+    height: 10px;
+    width: 50px;
+}
+
+/**.pp{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    margin-left : 150px;
+    border: 2px solid black;
+    position: absolute;
+    align-self: center;
+}**/
+
+/** footer **/
+
+.footer{
+    display: flex;
+    height: 50px;
+}
+.footer-one{
+    height: 80%;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    background-color: rgb(0, 0, 77);
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.para-three{
+    width: 65%;
+    font-size: 0.9rem;
+    color: white;
+    font-weight: 400;
+    
+}
+.footer-two{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 12%;
+    align-items: center;
+}
+.footer-two a{  
+    color: white;  
+    display: inline;
+}
+
+/** responsive navbar **/
+
+@media(max-width:1025px)
+{
+    .navbar{
+        width:100%;
+    }
+
+    .navbar-logo{
+        height: 30px;
+        width: 60%;   
+
+    }
+
+    .about-us h1{
+        text-align: center;
+    }
+
+    .about-us para{
+        align-items: center ;
+
+    }
+    .background text{
+        font-size: 10px;
+        margin-right: 20%;
+    }
+
+}
